@@ -76,6 +76,7 @@
 
 @media (max-width: 768px) {
     .weather {
+      width: 80%;
       padding: 20px;
     }
   
@@ -110,13 +111,14 @@
   
     .weather-data {
       margin-top: 20px;
-      flex-direction: column;
       gap: 15px;
+      display: flex;
+      justify-content: space-between;
     }
   
     .weather-data .col {
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-a;
       align-items: center;
       font-size: 18px;
     }
